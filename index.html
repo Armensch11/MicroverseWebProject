@@ -18,7 +18,25 @@
     </header>
 
     <div>
-      <form action=""></form>
+      <form action="/action_page.php" method="get">
+        <label for="name">Name</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email"><br><br>
+        <label for="age" >Age</label>
+        <input type= "number" value="10" name="myage" ><br><br>
+        <label for="question1" id="role" name="roleDescription">Which option best describes your current role?</label>
+        <select id="cars" name="cars">
+          <option value="selectRole">Select Current Role</option>
+          <option value="student">Student</option>
+          <option value="fullTimeJob">Full Time Job</option>
+          <option value="fullTimeLearner">Full Time Learner</option>
+          <option value="preferNotToSay">Prefer not to say</option>
+          <option value="Other">Other</option>
+        </select>
+
+        <input type="submit" value="Submit">
+      </form>
     </div>
 
 
